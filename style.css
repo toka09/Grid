@@ -114,7 +114,7 @@ h3 {
     margin-top: 50px;
 }
 .d5 > h3 {
-    padding-top: 40px;
+    padding-top: 75px;
     margin: auto;
     display: block;
     max-width: 160px;
@@ -231,7 +231,7 @@ h3 {
 .d9 > img {
     width:100%;
     margin-top: 40px;
-    margin-left:-200px ;
+    margin-left:-100px ;
 
 }
 .d9 > h3 {
