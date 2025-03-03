@@ -1,0 +1,164 @@
+@media (max-width: 1024px) {
+    .grid-container {
+        grid-template-columns: 1fr 2fr 2fr 35%;
+        grid-template-rows: 0.5fr 1fr 1fr 0.6fr;
+        grid-template-areas:
+            'd1 d2 d3 d3'
+            'd4 d5 d6 d7'
+            'd8 d9 d9 d7'
+            'd10 d11 d12 d12';
+    }
+    a,.arrow, .d4 > a {
+        font-size: 1.2rem;
+    }
+    .d5 > img {
+        float: right;
+        margin-right: 60px;
+        margin-top: 168px;
+    }
+    .d6 {
+        padding-bottom: 15px;
+    }
+    .d11 > div {
+        margin-top: 85px;
+        margin-left: 55px;
+    }
+}
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr 1fr 25%;
+        grid-template-rows: auto 1fr 1fr 1fr auto auto auto auto;
+        grid-template-areas:
+            'd3 d3 d3 d3'
+            'd1 d1 d2 d2'
+            'd4 d4 d8 d8'
+            'd5 d5 d6 d6'
+            'd10 d10 d7 d7'
+            'd9 d9 d7 d7'
+            'd11 d11 d11 d11'
+            'd12 d12 d12 d12';
+    }
+    .caps {
+        font-size: 1rem;
+    }
+    .grey-text {
+        font-size: 1.3rem;
+    }
+    .d3 {
+        padding-bottom: 15px;
+    }
+    a {
+        font-size: 1.3rem;
+    }
+    .d1 > h3 {
+        font-size: 1.6rem;
+    }
+    .d4 > a,
+    .arrow,
+    .d6 > a {
+        font-size: 1.4rem;
+    }
+    .twitter-container {
+        margin-top: 45px;
+    }
+    .d7 {
+        padding-bottom: 30px;
+    }
+    .d11 > div {
+        margin-top: 50px;
+        margin-left: 330px;
+    }
+    .d11 > h3 {
+        margin-top: 80px;
+    }
+}
+@media (max-width: 680px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            'd3'
+            'd1'
+            'd2'
+            'd4'
+            'd8'
+            'd5'
+            'd6'
+            'd10'
+            'd9'
+            'd7'
+            'd7'
+            'd11'
+            'd12';
+    }
+    a {
+        font-size: 1.4rem;
+    }
+    .caps {
+        font-size: 1.1rem;
+        line-height: 1.5;
+    }
+    .d1 {
+        margin-left: 10px;
+    }
+    .d1 > h3 {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+    .grey-text {
+        font-size: 1.36rem;
+    }
+    .d4 > h3,
+    .d8 > h3 {
+        font-size: 1.8rem;
+    }
+    .d4 > a {
+        font-size: 1.6rem;
+    }
+    .d8 {
+        padding-bottom: 30px;
+    }
+    .d5 > h3 {
+        font-size: 1.47rem;
+        line-height: 1.5;
+    }
+    .d6 {
+        padding-bottom: 30px;
+    }
+    .d6 > div,
+    .d6 > a {
+        margin-left: 20px;
+    }
+    .d6 > a {
+        font-size: 1.4rem;
+    }
+    .twitter-container {
+        margin-top: 10px;
+    }
+    .mini-caps {
+        font-size: 1rem;
+    }
+    .d9 > h3 {
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    .d7 {
+        padding-bottom: 50px;
+    }
+    .text-block {
+        font-size: 1.1rem;
+    }
+    .text-block2 {
+        font-size: 1.5rem;
+    }
+    .d11 > div {
+        margin-left: 120px;
+    }
+    .d12 > img {
+        width: 150px;
+    }
+    .d12 > h3 {
+        font-size: 1.5rem;
+        line-height: 1.5;
+        margin-left: 35px;
+    }
+}
